@@ -1,7 +1,7 @@
-﻿Install instuctions for prasterblaster GUI desktop application (PrbUi2) 
-for Ubuntu 12.04 LTS (precise) or later, x86_64.
+﻿Install instructions for prasterblaster GUI desktop application for Ubuntu 12.04,or later, on x86_64 architecture.
 
 Prepare Machine
+
   Prepare machine for building from source by running:
 ```
 sudo apt-get install build-essential gdb
