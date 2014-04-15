@@ -1,13 +1,13 @@
-﻿Install instructions for prasterblaster GUI desktop application for Ubuntu 12.04,or later, on x86_64 architecture.
+﻿#Install instructions for prasterblaster GUI desktop application for Ubuntu 12.04,or later, on x86_64 architecture.
 
-Prepare Machine
+#Prepare Machine
 
   Prepare machine for building from source by running:
 ```
 sudo apt-get install build-essential gdb
 ```
 
-Install QT 4
+#Install QT 4
  
   First install dependencies:
 ```
@@ -30,7 +30,7 @@ PATH=/usr/local/Trolltech/Qt-4.8.5/bin:$PATH
 export PATH
 ```
 
-Install QGis Stable
+#Install QGis Stable
 
   Download and install QGis Stable by following the instructions here:
 http://www.qgis.org/en/site/forusers/download.html
@@ -49,7 +49,7 @@ sudo apt-get update
 sudo apt-get install qgis python-qgis libqgis-dev
 ```
 
-Install Open MPI
+#Install Open MPI
 
   Run:
 ```
@@ -57,14 +57,14 @@ sudo apt-get install openmpi-dev
 sudo apt-get install openmpi-bin
 ```
 
-Install GDAL and Proj
+#Install GDAL and Proj
 
   Run the buildgdal.sh script from your install directory:
 ```
 ./buildgdal.sh
 ```
 
-Compile the PrbUi2 executable:
+#Compile the PrbUi2 executable:
 
   From your install directory run:
 ```
