@@ -3,8 +3,9 @@ for Ubuntu 12.04 LTS (precise) or later.
 
 Prepare Machine
   Prepare machine for building from source by running:
+```
 sudo apt-get install build-essential gdb
-
+```
 
 Install QT 4
  
