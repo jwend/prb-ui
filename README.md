@@ -49,7 +49,7 @@ sudo apt-get update
 sudo apt-get install qgis python-qgis libqgis-dev
 ```
 
-Install Open MPI.
+Install Open MPI
 
   Run:
 ```
@@ -59,21 +59,21 @@ sudo apt-get install openmpi-bin
 
 Install GDAL and Proj
 
-  Run the buildgdal.sh script from the distribution directory:
+  Run the buildgdal.sh script from your install directory:
 ```
 ./buildgdal.sh
 ```
 
 Compile the PrbUi2 executable:
 
-  From the distribution directory run:
+  From your install directory run:
 ```
 qmake
 make
 ```
   Add the following to your shell startup file, i.e., .bashrc:  
 ```
-export LD_LIBRARY_PATH=/home/jwendel/prbui2/gdal/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=<My install directory>/gdal/lib:$LD_LIBRARY_PATH
 ```
   Run the PrbUi2 executable with the following:
 ```
