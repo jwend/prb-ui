@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jeff/!svn/ver/649/PrbUi2/sample-data
+END
+veg_geographic_1deg.tif
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jeff/!svn/ver/649/PrbUi2/sample-data/veg_geographic_1deg.tif
+END
+holdnorm_geographic_30min.tif
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jeff/!svn/ver/649/PrbUi2/sample-data/holdnorm_geographic_30min.tif
+END
+getdata.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jeff/!svn/ver/651/PrbUi2/sample-data/getdata.sh
+END
