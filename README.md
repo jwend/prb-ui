@@ -1,4 +1,4 @@
-﻿**Install instructions for prasterblaster GUI desktop application for Ubuntu 12.04,or later, on x86_64 architecture.**
+﻿**Install instructions for prasterblaster GUI desktop application for Ubuntu 12.04, or later, on x86_64 architecture.**
 
 **Prepare Machine**
 
