@@ -1,5 +1,5 @@
 ﻿Install instuctions for prasterblaster GUI desktop application (PrbUi2) 
-for Ubuntu 12.04 LTS (precise) or later.
+for Ubuntu 12.04 LTS (precise) or later, x86_64.
 
 Prepare Machine
   Prepare machine for building from source by running:
@@ -50,10 +50,12 @@ sudo apt-get install qgis python-qgis libqgis-dev
 ```
 
 Install Open MPI.
+
   Run:
+```
 sudo apt-get install openmpi-dev
 sudo apt-get install openmpi-bin
-
+```
 
 Install GDAL and Proj
 
